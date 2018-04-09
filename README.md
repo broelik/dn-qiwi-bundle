@@ -7,3 +7,5 @@
   // Последние 5 платежей
   $res = $qiwi->paymentHistory()->rows(5)->operation('OUT')->query();
 ```
+## Скачать
+[Последняя версия](https://github.com/broelik/dn-qiwi-bundle/releases/latest)
